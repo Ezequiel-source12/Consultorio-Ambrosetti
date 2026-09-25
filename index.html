@@ -67,7 +67,7 @@
       </svg>
     </div>
 
-    <div class="wrap hero-grid">
+    <div class="wrap hero-single">
       <div class="hero-copy" data-reveal>
         <span class="eyebrow">Consultorio médico · CABA</span>
         <h1>Cuidamos tu salud,<br><em>acompañamos</em> tu bienestar.</h1>
@@ -79,19 +79,6 @@
             Reservar turno por WhatsApp
           </a>
           <a href="#especialidades" class="btn btn-ghost">Ver especialidades</a>
-        </div>
-      </div>
-
-      <div class="hero-visual" data-reveal>
-        <div class="hero-photo">
-          <div class="hero-photo-frame">
-            <img src="assets/img/hero-consultorio.jpg" alt="Consultorios Ambrosetti" loading="eager"
-                 onerror="this.closest('.hero-photo-frame').classList.add('img-fallback')">
-            <div class="fallback-content">
-              <span class="fallback-label">Espacio para tu foto</span>
-              <span class="fallback-file">assets/img/hero-consultorio.jpg</span>
-            </div>
-          </div>
         </div>
       </div>
     </div>
@@ -109,32 +96,90 @@
         <h2>Especialidades y servicios</h2>
       </div>
 
-      <div class="cards">
-        <div class="card" data-reveal data-i="0">
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 3v4a3 3 0 0 0 6 0V3M12 14v7M9 21h6M6 8c0 4 2.5 7 6 7s6-3 6-7" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <h3>Ginecología</h3>
-          <p>Consultas y seguimiento integral de la salud de la mujer, en todas las etapas de la vida.</p>
+      <div class="specialty-list">
+        <div class="specialty-row" data-reveal data-i="0">
+          <span class="s-letter" aria-hidden="true">G</span>
+          <span class="s-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3">
+              <ellipse cx="12" cy="7" rx="2.6" ry="4"/>
+              <ellipse cx="12" cy="7" rx="2.6" ry="4" transform="rotate(72 12 12)"/>
+              <ellipse cx="12" cy="7" rx="2.6" ry="4" transform="rotate(144 12 12)"/>
+              <ellipse cx="12" cy="7" rx="2.6" ry="4" transform="rotate(216 12 12)"/>
+              <ellipse cx="12" cy="7" rx="2.6" ry="4" transform="rotate(288 12 12)"/>
+              <circle cx="12" cy="12" r="1.5" fill="currentColor" stroke="none"/>
+            </svg>
+          </span>
+          <div class="s-copy">
+            <h3>Ginecología</h3>
+            <p>Consultas y seguimiento integral de la salud de la mujer, en todas las etapas de la vida.</p>
+          </div>
         </div>
-        <div class="card" data-reveal data-i="1">
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3a5 5 0 0 0-5 5c0 3 2 4 2 8a3 3 0 0 0 6 0c0-4 2-5 2-8a5 5 0 0 0-5-5Z" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 21h6" stroke-linecap="round"/></svg>
-          <h3>Ecografías</h3>
-          <p>Estudios ecográficos realizados en el consultorio, con equipamiento y atención personalizada.</p>
+
+        <div class="specialty-row" data-reveal data-i="1">
+          <span class="s-letter" aria-hidden="true">E</span>
+          <span class="s-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M10 3h4v8a2 2 0 1 1-4 0V3Z" stroke-linejoin="round"/>
+              <path d="M12 13v6" stroke-linecap="round"/>
+              <path d="M9 21h6" stroke-linecap="round"/>
+              <path d="M16 6c1.2.9 1.2 4.1 0 5" stroke-linecap="round"/>
+              <path d="M18.3 4.2c2.3 1.8 2.3 8 0 9.8" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div class="s-copy">
+            <h3>Ecografías</h3>
+            <p>Estudios ecográficos realizados en el consultorio, con equipamiento y atención personalizada.</p>
+          </div>
         </div>
-        <div class="card" data-reveal data-i="2">
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="3" y="5" width="18" height="13" rx="2"/><path d="M8 9h3M8 12h5M3 8h18" stroke-linecap="round"/></svg>
-          <h3>Endocrinología</h3>
-          <p>Seguimiento hormonal y metabólico, adaptado a tu ritmo de vida.</p>
-          <span class="tag">Atención virtual</span>
+
+        <div class="specialty-row" data-reveal data-i="2">
+          <span class="s-letter" aria-hidden="true">E</span>
+          <span class="s-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <ellipse cx="7.6" cy="12" rx="3.6" ry="4.3" transform="rotate(-8 7.6 12)"/>
+              <ellipse cx="16.4" cy="12" rx="3.6" ry="4.3" transform="rotate(8 16.4 12)"/>
+              <path d="M10.8 12h2.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div class="s-copy">
+            <h3>Endocrinología</h3>
+            <p>Seguimiento hormonal y metabólico, adaptado a tu ritmo de vida.</p>
+            <span class="tag">Atención virtual</span>
+          </div>
         </div>
-        <div class="card" data-reveal data-i="3">
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M9 3h6l1 4H8l1-4Z" stroke-linejoin="round"/><path d="M7 7h10l-1 13a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2L7 7Z" stroke-linejoin="round"/><path d="M9 12h6" stroke-linecap="round"/></svg>
-          <h3>Análisis clínicos</h3>
-          <p>Toma de muestras y estudios de laboratorio con resultados claros y acompañamiento.</p>
+
+        <div class="specialty-row" data-reveal data-i="3">
+          <span class="s-letter" aria-hidden="true">A</span>
+          <span class="s-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M10 3v9.3a3.5 3.5 0 1 0 4 0V3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M9 3h6" stroke-linecap="round"/>
+              <path d="M10.3 14.3h3.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <div class="s-copy">
+            <h3>Análisis clínicos</h3>
+            <p>Toma de muestras y estudios de laboratorio con resultados claros y acompañamiento.</p>
+          </div>
         </div>
-        <div class="card" data-reveal data-i="4">
-          <svg class="ic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21c4-3 8-6.5 8-11a5 5 0 0 0-8-4 5 5 0 0 0-8 4c0 4.5 4 8 8 11Z" stroke-linejoin="round"/></svg>
-          <h3>Dermatología y estética</h3>
-          <p>Relleno de labios, botox y plasma rico en plaquetas, con criterio médico y resultados naturales.</p>
+
+        <div class="specialty-row" data-reveal data-i="4">
+          <span class="s-letter" aria-hidden="true">D</span>
+          <span class="s-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
+              <path d="M12 4C9 8 6 11.5 6 15a6 6 0 0 0 12 0c0-3.5-3-7-6-11Z" stroke-linejoin="round"/>
+              <path d="M17.6 3.6c.22.85.62 1.25 1.5 1.5-.88.25-1.28.65-1.5 1.5-.22-.85-.62-1.25-1.5-1.5.88-.25 1.28-.65 1.5-1.5Z" fill="currentColor" stroke="none"/>
+            </svg>
+          </span>
+          <div class="s-copy">
+            <h3>Dermatología y estética</h3>
+            <p>Relleno de labios, botox y plasma rico en plaquetas, con criterio médico y resultados naturales.</p>
+            <div class="chip-row">
+              <span class="chip">Relleno de labios</span>
+              <span class="chip">Botox</span>
+              <span class="chip">Plasma rico en plaquetas</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
