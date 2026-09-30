@@ -110,12 +110,14 @@ nav.is-scrolled{ border-color:var(--line); box-shadow:0 6px 24px -18px rgba(43,5
   display:flex; align-items:center; justify-content:space-between; gap:16px;
 }
 .brand{
+  display:flex; align-items:center; gap:12px;
   font-family:'Fraunces',serif; font-size:20px; letter-spacing:.02em; color:var(--rose-deep);
   text-decoration:none; line-height:1.2;
 }
+.brand-logo{ height:46px; width:auto; display:block; border-radius:6px; }
 .brand span{
   display:block; font-size:10px; letter-spacing:.28em; color:var(--gold);
-  text-transform:uppercase; font-family:'Jost',sans-serif; font-weight:500; margin-top:2px;
+  text-transform:uppercase; font-family:'Jost',sans-serif; font-weight:500;
 }
 .nav-links{ display:flex; align-items:center; gap:30px; font-size:14.5px; }
 .nav-links a[data-nav]{ text-decoration:none; color:var(--ink); position:relative; padding-block:4px; transition:color .2s ease; }
